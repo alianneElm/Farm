@@ -22,6 +22,15 @@ public class Barn {
         }
         return null;
     }
+    public Animal getAnimal2 (String name){
+
+        for(Animal animal :animals){
+            if(animal.getName().equals(name)){
+                return animal;
+            }
+        }
+        return null;
+    }
 }
 
 
