@@ -1,4 +1,6 @@
-package com.company.animals;
+package com.company;
+
+import com.company.Animal;
 
 public class Cow extends Animal {
 
@@ -12,6 +14,9 @@ public class Cow extends Animal {
     public int getMilkAmount(){
         totalMilk -= milkAmount;
         return milkAmount;
+    }
+    public  void withMilk(){
+        System.out.println("The total milk is "+ totalMilk);
     }
 
 }
