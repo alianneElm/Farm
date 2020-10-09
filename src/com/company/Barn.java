@@ -1,7 +1,5 @@
 package com.company;
 
-import com.company.animals.Animal;
-
 import java.util.ArrayList;
 
 
@@ -21,6 +19,9 @@ public class Barn {
             }
         }
         return null;
+    }
+    public void theProduction (){
+        System.out.println("The total production of the Barn");
     }
 }
 

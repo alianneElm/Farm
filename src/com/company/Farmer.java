@@ -1,9 +1,5 @@
 package com.company;
 
-import com.company.animals.Animal;
-import com.company.animals.Cow;
-import com.company.animals.Pig;
-
 
 public class Farmer extends Person{
 
@@ -37,6 +33,7 @@ public class Farmer extends Person{
         bacon = bacon + ((Pig) tempAnimal).getBacon();
         System.out.println(" The bacon amount is: "+ bacon);
     }
+
 
 
 
