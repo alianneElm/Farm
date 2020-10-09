@@ -15,8 +15,17 @@ public class Cow extends Animal {
         totalMilk -= milkAmount;
         return milkAmount;
     }
+
+    //para probar git
     public  void withMilk(){
         System.out.println("The total milk is "+ totalMilk);
     }
 
+    @Override
+    public String toString() {
+        return "Cow{" +
+                "milkAmount=" + milkAmount +
+                ", totalMilk=" + totalMilk +
+                '}';
+    }
 }
