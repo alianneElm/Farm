@@ -1,4 +1,4 @@
-package com.company.animals;
+package com.company;
 
 public class Animal {
 
@@ -12,5 +12,7 @@ public class Animal {
         return name;
     }
 
-
+    public  void withText(){
+        System.out.println("The name is "+ name);
+    }
 }
