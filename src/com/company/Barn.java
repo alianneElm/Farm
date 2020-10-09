@@ -23,6 +23,13 @@ public class Barn {
     public void theProduction (){
         System.out.println("The total production of the Barn");
     }
+    // para probar git
+    @Override
+    public String toString() {
+        return "Barn{" +
+                "animals=" + animals +
+                '}';
+    }
 }
 
 
